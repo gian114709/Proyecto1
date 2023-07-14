@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Delius+Swash+Caps&family=Vast+Shadow&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="gmdsport">
+            <a href="../index.html">GMD SPORT</a>
+        </div>
+
+
+
+        <h2>Formulario de Contacto</h2>
+        <div class="menu">
+            <ul>
+                <li><a class="links" href="../index.html">Inicio</a></li>
+                <li><a class="links" href="../pages/productos.html">Productos</a></li>
+                <li><a class="links" href="../pages/contacto.html">Contacto</a></li>
+                <li><a class="links" href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a class="links" href="../pages/sale.html">SALE</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="formulariocontacto">
+        <form action="" method="post">
+            <div>
+                <label for="">Nombre</label>
+                <input type="text" name="textNombre" id="textNombre">
+            </div>
+
+            <div>
+                <label for="Ingresar Apellido">Apellido</label>
+                <input type="text" name="textApellido" id="textApellido">
+            </div>
+
+            <div>
+                <label for="correo"> Email*</label>
+                <input type="email" name="correo" id="correo" required placeholder="Ej: usuario@gmail.com">
+            </div>
+
+            <div>
+                <label for="telCelular">Telefono*</label>
+                <input type="tel" name="telCelular" id="telCelular" required placeholder="Ej: + 54 9 1123876543">
+            </div>
+
+            <div>
+                <label for="textMensaje">Mensaje</label>
+                <textarea name="textMensaje" id=textMensaje placeholder="Escriba aqui su mensaje..."></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" name="checkboxNovedades" id="checkboxNovedades">
+                <label for="checkboxNovedades">¿Desea recibir Novedades?</label>
+            </div>
+
+            <div>
+                <button type="submit" name="btnEnviar" id="btnEnviar">ENVIAR</button>
+                <button type="reset" name="btnBorrar" id="btnBorrar">VOLVER</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

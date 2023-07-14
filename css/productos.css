@@ -1,0 +1,91 @@
+body {
+    background-image: url(../img/parallax\ 2.jpg);
+
+}
+.gmdsport a{
+    font-family: 'Vast Shadow', cursive;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: line-through;
+    color: black;
+    position: fixed;
+    
+}
+
+.menuprod ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: darkorange;
+    padding: 30px;
+    margin: 0px;
+   
+    
+
+}
+
+.menuprod li {
+    font-size: 20px;
+    display: inline;
+    list-style: none;
+    font-family: 'Vast Shadow', cursive;
+    margin: 15px;
+    
+    
+}
+
+.links{
+    color: black;
+    text-decoration: wavy;
+    
+}
+
+
+h4 {
+    background-color: darkorange;
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+    padding: 30px;
+    margin: 0px;
+    font-size: 25px;
+
+}
+
+
+
+.container {
+    font-family: 'Vast Shadow', cursive;
+    
+
+}
+
+.card-body {
+    background-color: silver;
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+    
+}
+
+.card-footer{
+    
+    text-align: left;
+    color: black;
+    background-color: darkorange;
+}
+
+.comprar{
+    display: inline;
+    margin: 20px;
+    
+    
+}
+
+.btn-primary{
+    color: darkorange;
+    background-color: black;
+    border: none;
+}
+
+.btn-primary:hover{
+color: mediumseagreen;
+background-color: black;
+}
